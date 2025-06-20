@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Luke Megee</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #f7f7f7;
+      height: 100%;
+    }
+
+    body {
+      background-image: url('COOL.png'); /* Replace with your image */
+      background-position: center 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.9);
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .profile-pic {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .showcase-box {
+      border-radius: 0%;
+      object-fit: fill;
+      box-shadow: 0 2px 10px rgb(255, 179, 0);
+    }
+
+
+    h1, h2, h3 {
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .job-info {
+      font-style: italic;
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact a {
+      color: #3498db;
+      text-decoration: none;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="Favicon1.png">
+</head>
+<body>
+
+  <div class="content">
+    <!-- Profile Picture -->
+    <img src="profile2.png" alt="Ur_bestM8" class="profile-pic"/>
+
+    <h1>Ur_bestM8 (Online Alias)</h1>
+    <p>Last Updated: 6/19/2025</p>
+    <p class="contact">
+      📍 Shawnee, US | 📞 (913) 401-5579 | ✉️ <a href="mailto:lukemegee@gmail.com">lukemegee@gmail.com</a> | 🌐 <a href="index.html">My Resume</a>
+    </p>
+
+    <hr/>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        Experienced Video Game Designer with a strong background in programming, passionate about creating deep and inspiring pieces of art in many forms. Adept in learning, communication, and leadership.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Graphics and Art</h2>
+
+      <h3 class="job-title">Below Surface Trailer</h3>
+<iframe width="800" height="600" class="showcase-box"
+src="https://www.youtube.com/embed/ZnzAlSV_WMc">
+</iframe>
+   <ul>
+        <li>Official trailer for "Below Surface"</li>
+        <li>Edited in Filmora, visual effects done in Paint.net</li>
+        <li>Done in under two weeks</li> 
+        <li><a href = "https://store.steampowered.com/app/2841000/Below_Surface/" target = "_blank">See the game on steam here</a>
+        </li> 
+      </ul>
+
+   <hr/>
+
+      <h3 class="job-title">Boss Fight End Cutscene</h3>
+<video controls width="640" height="360" class="showcase-box">
+  <source src="UnityAnimation.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+   <ul>
+        <li>Boss Finisher, for the retro style horror game "Below Surface"</li>
+        <li>Animated with unity, edited in Filmora, visual effects done in paint.net</li>
+        <li>Done in three days</li> 
+        <li><a href = "https://store.steampowered.com/app/2841000/Below_Surface/" target = "_blank">See the game on steam here</a>
+        </li> 
+      </ul>
+
+   <hr/>
+
+     <h3 class="job-title">Infinity Icon</h3>
+    <img src="NewIA_Newer.png" alt="Infinity Icon" class="showcase-box"       width= 800px;
+      height= 800px;/>
+      <ul>
+        <li>Promotional icon for a game</li>
+        <li>Done in paint.net + Blender</li>
+        <li>Done in 6 hours</li> 
+      </ul>
+
+         <hr/>
+   <h3 class="job-title">World Building: Tourist's Travesty</h3>
+    <img src="World.png" alt="Tourist's Travesty" class="showcase-box" width = 480px;
+      height = 360px;/>
+      <ul>
+        <li>A surreal, never ending tourist park.</li>
+        <li>Done in paint.net</li>
+        <li>Done in 2 hours</li> 
+      </ul>
+ 
+
+            <hr/>
+
+      <h3 class="job-title">Third Impact</h3>
+    <img src="3rdImpact.png" alt="Third Impact" class="showcase-box" width = 630px;
+      height = 840px;/>
+      <ul>
+        <li>Inspired by Neon Genesis Evangelion</li>
+        <li>Done in paint.net</li>
+        <li>Done in less than 30 minutes</li> 
+      </ul>
+ 
+
+ 
+
+  </div>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      document.body.style.backgroundPositionY = `${scrollTop * 0.95}px`;
+    });
+  </script>
+
+</body>
+</html>
